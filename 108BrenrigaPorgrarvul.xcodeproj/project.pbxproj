@@ -57,6 +57,16 @@
 		D2122233445566778899B444 /* NotificationServiceExtension/NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1122233445566778899B333 /* NotificationServiceExtension/NotificationService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E01F2031425364758695CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 744B21AA2F77243000F2A8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4122233445566778899AFFF;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8F1021324354657687989AAB /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -369,6 +379,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E02F2031425364758695CD1 /* PBXTargetDependency */,
 			);
 			name = 108BrenrigaPorgrarvul;
 			packageProductDependencies = (
@@ -535,6 +546,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E02F2031425364758695CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4122233445566778899AFFF /* NotificationServiceExtension */;
+			targetProxy = E01F2031425364758695CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		746AE5EC2F7E6A820076A047 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -565,6 +584,7 @@
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K49Q8F88P7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
@@ -608,6 +628,7 @@
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K49Q8F88P7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
@@ -767,6 +788,7 @@
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K49Q8F88P7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -799,6 +821,7 @@
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K49Q8F88P7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
