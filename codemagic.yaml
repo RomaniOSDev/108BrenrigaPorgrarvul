@@ -29,13 +29,15 @@ workflows:
         - name: Use system default keychain
           script: |
             keychain add-certificates
-        - name: Set up code signing settings on Xcode project
-          script: |
-            xcode-project use-profiles
         - name: Cocoapods
           script: |
             #!/bin/sh
             pod install
+        - name: Set up code signing settings on Xcode project
+          script: |
+            xcode-project use-profiles \
+              --project "108BrenrigaPorgrarvul.xcodeproj" \
+              --archive-method app-store
         - name: Build ipa for distribution
           script: |
             xcode-project build-ipa \
