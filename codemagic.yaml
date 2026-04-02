@@ -40,9 +40,16 @@ workflows:
               --archive-method app-store
         - name: Build ipa for distribution
           script: |
+            # Omit signingCertificate so build-ipa does not pass CODE_SIGN_IDENTITY to archive (avoids SPM conflicts).
+            EXPORT_PLIST="$HOME/export_options.plist"
+            if [ -f "$EXPORT_PLIST" ]; then
+              /usr/libexec/PlistBuddy -c "Delete :signingCertificate" "$EXPORT_PLIST" 2>/dev/null || true
+            fi
             xcode-project build-ipa \
               --workspace "$XCODE_WORKSPACE" \
               --scheme "$XCODE_SCHEME" \
+              --disable-xcpretty \
+              --archive-flags "-destination generic/platform=iOS" \
       artifacts:
         - build/ios/ipa/*.ipa
         - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
