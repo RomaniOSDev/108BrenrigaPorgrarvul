@@ -1,0 +1,38 @@
+import UserNotifications
+
+#if canImport(FirebaseMessaging)
+import FirebaseMessaging
+#endif
+
+final class NotificationService: UNNotificationServiceExtension {
+    var contentHandler: ((UNNotificationContent) -> Void)?
+    var bestAttemptContent: UNMutableNotificationContent?
+
+    override func didReceive(
+        _ request: UNNotificationRequest,
+        withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void
+    ) {
+        self.contentHandler = contentHandler
+        bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
+
+        guard let bestAttemptContent else {
+            contentHandler(request.content)
+            return
+        }
+
+        #if canImport(FirebaseMessaging)
+        Messaging.serviceExtension().populateNotificationContent(bestAttemptContent, withContentHandler: contentHandler)
+        #else
+        // Fallback: if FirebaseMessaging can't be resolved for this target,
+        // still deliver the notification content unchanged.
+        contentHandler(bestAttemptContent)
+        #endif
+    }
+
+    override func serviceExtensionTimeWillExpire() {
+        if let contentHandler, let bestAttemptContent {
+            contentHandler(bestAttemptContent)
+        }
+    }
+}
+

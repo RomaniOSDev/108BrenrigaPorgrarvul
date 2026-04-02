@@ -1,6 +1,6 @@
 import Foundation
 
 enum AppExternalLink: String {
-    case privacy = "https://brenriga108porgrarvul.site/privacy/25"
-    case terms = "https://brenriga108porgrarvul.site/terms/25"
+    case privacy = "https://brenrigaporgrarvul.com/privacy-policy.html"
+    case terms = "https://brenrigaporgrarvul.com/support.html"
 }
