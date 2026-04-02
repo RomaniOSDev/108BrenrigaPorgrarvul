@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		746ADAA82F7E4C3E0076A047 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 746ADAA72F7E4C3E0076A047 /* AppsFlyerLib-Static */; };
 		746ADAAB2F7E4C7E0076A047 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 746ADAAA2F7E4C7E0076A047 /* FirebaseMessaging */; };
-		746AE4792F7E529F0076A047 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A9B0C1D2E3F405162738495 /* FirebaseCore */; };
 		746AE54C2F7E65E60076A047 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 746AE54B2F7E65E60076A047 /* FirebaseMessaging */; };
 		746AE5F22F7E6A820076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746AE5E72F7E6A820076A047 /* Assets.xcassets */; };
 		746AE5F32F7E6A820076A047 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 746AE5E92F7E6A820076A047 /* GoogleService-Info.plist */; };
@@ -54,7 +53,6 @@
 		746AE61B2F7E6A820076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AE5E82F7E6A820076A047 /* ContentView.swift */; };
 		746AE61C2F7E6A820076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AE5EF2F7E6A820076A047 /* SceneDelegate.swift */; };
 		746AE61D2F7E6A820076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AE5F02F7E6A820076A047 /* ViewController.swift */; };
-		8B9C1D2E3F405162738495A6 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A9B0C1D2E3F405162738495 /* FirebaseCore */; };
 		8D0E1F2031425364758695C8 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E1F2031425364758695C9D0 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D2122233445566778899B444 /* NotificationServiceExtension/NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1122233445566778899B333 /* NotificationServiceExtension/NotificationService.swift */; };
 /* End PBXBuildFile section */
@@ -131,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9C1D2E3F405162738495A6 /* FirebaseCore in Frameworks */,
 				746ADAAB2F7E4C7E0076A047 /* FirebaseMessaging in Frameworks */,
 				746ADAA82F7E4C3E0076A047 /* AppsFlyerLib-Static in Frameworks */,
 			);
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				746AE54C2F7E65E60076A047 /* FirebaseMessaging in Frameworks */,
-				746AE4792F7E529F0076A047 /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +374,6 @@
 			packageProductDependencies = (
 				746ADAA72F7E4C3E0076A047 /* AppsFlyerLib-Static */,
 				746ADAAA2F7E4C7E0076A047 /* FirebaseMessaging */,
-				8A9B0C1D2E3F405162738495 /* FirebaseCore */,
 			);
 			productName = 108BrenrigaPorgrarvul;
 			productReference = 744B21B22F77243100F2A8EB /* 108BrenrigaPorgrarvul.app */;
@@ -397,7 +392,6 @@
 			);
 			name = NotificationServiceExtension;
 			packageProductDependencies = (
-				8A9B0C1D2E3F405162738495 /* FirebaseCore */,
 				746AE54B2F7E65E60076A047 /* FirebaseMessaging */,
 			);
 			productName = NotificationServiceExtension;
@@ -570,7 +564,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
@@ -613,7 +607,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvulRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
@@ -896,11 +890,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 746ADAA92F7E4C7E0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
-		};
-		8A9B0C1D2E3F405162738495 /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 746ADAA92F7E4C7E0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
