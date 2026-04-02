@@ -3,83 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		744B237F2F796BFB00F2A8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B23752F796BFB00F2A8EB /* Assets.xcassets */; };
-		744B23812F796BFB00F2A8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B23792F796BFB00F2A8EB /* LaunchScreen.storyboard */; };
-		744B23822F796BFB00F2A8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B237B2F796BFB00F2A8EB /* Main.storyboard */; };
-		744B23832F796BFB00F2A8EB /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23512F796BFB00F2A8EB /* AppColor.swift */; };
-		744B23842F796BFB00F2A8EB /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23522F796BFB00F2A8EB /* AppVisualStyle.swift */; };
-		744B23852F796BFB00F2A8EB /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23542F796BFB00F2A8EB /* GameModels.swift */; };
-		744B23862F796BFB00F2A8EB /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23562F796BFB00F2A8EB /* AppStorage.swift */; };
-		744B23872F796BFB00F2A8EB /* AppExternalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23582F796BFB00F2A8EB /* AppExternalLinks.swift */; };
-		744B23882F796BFB00F2A8EB /* ColorMatchGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B235A2F796BFB00F2A8EB /* ColorMatchGameView.swift */; };
-		744B23892F796BFB00F2A8EB /* ColorMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B235B2F796BFB00F2A8EB /* ColorMatchViewModel.swift */; };
-		744B238A2F796BFB00F2A8EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B235D2F796BFB00F2A8EB /* HomeView.swift */; };
-		744B238B2F796BFB00F2A8EB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B235F2F796BFB00F2A8EB /* MainTabView.swift */; };
-		744B238C2F796BFB00F2A8EB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23612F796BFB00F2A8EB /* OnboardingView.swift */; };
-		744B238D2F796BFB00F2A8EB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23632F796BFB00F2A8EB /* SettingsView.swift */; };
-		744B238E2F796BFB00F2A8EB /* MazeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23652F796BFB00F2A8EB /* MazeLayout.swift */; };
-		744B238F2F796BFB00F2A8EB /* ShapeEscapeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23662F796BFB00F2A8EB /* ShapeEscapeGameView.swift */; };
-		744B23902F796BFB00F2A8EB /* ShapeEscapeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23672F796BFB00F2A8EB /* ShapeEscapeViewModel.swift */; };
-		744B23912F796BFB00F2A8EB /* ActiveGameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23692F796BFB00F2A8EB /* ActiveGameSpec.swift */; };
-		744B23922F796BFB00F2A8EB /* DifficultyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B236A2F796BFB00F2A8EB /* DifficultyPicker.swift */; };
-		744B23932F796BFB00F2A8EB /* GameHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B236B2F796BFB00F2A8EB /* GameHubView.swift */; };
-		744B23942F796BFB00F2A8EB /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B236C2F796BFB00F2A8EB /* GameResultView.swift */; };
-		744B23952F796BFB00F2A8EB /* LevelGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B236D2F796BFB00F2A8EB /* LevelGridView.swift */; };
-		744B23962F796BFB00F2A8EB /* StarCollectorGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B236F2F796BFB00F2A8EB /* StarCollectorGameView.swift */; };
-		744B23972F796BFB00F2A8EB /* StarCollectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23702F796BFB00F2A8EB /* StarCollectorViewModel.swift */; };
-		744B23982F796BFB00F2A8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23732F796BFB00F2A8EB /* AppDelegate.swift */; };
-		744B23992F796BFB00F2A8EB /* AppTabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23742F796BFB00F2A8EB /* AppTabBarAppearance.swift */; };
-		744B239A2F796BFB00F2A8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B23762F796BFB00F2A8EB /* ContentView.swift */; };
-		744B239B2F796BFB00F2A8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B237C2F796BFB00F2A8EB /* SceneDelegate.swift */; };
-		744B239C2F796BFB00F2A8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B237D2F796BFB00F2A8EB /* ViewController.swift */; };
+		746AF4472F7F17EC0076A047 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 746AF4462F7F17EC0076A047 /* FirebaseMessaging */; };
+		746AF44A2F7F18050076A047 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 746AF4492F7F18050076A047 /* AppsFlyerLib-Static */; };
+		746AF45D2F7F19010076A047 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AF4572F7F19010076A047 /* NotificationService.swift */; };
+		746AF4632F7F19010076A047 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 746AF4562F7F19010076A047 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		746AF4672F7F19010076A047 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 746AF4662F7F19010076A047 /* FirebaseCore */; };
+		746AF46A2F7F19010076A047 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 746AF4462F7F17EC0076A047 /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746AF4652F7F19010076A047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 744B21AA2F77243000F2A8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746AF45A2F7F19010076A047;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		746AF4622F7F19010076A047 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				746AF4632F7F19010076A047 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04C9DDA9880FCE77FE51CE5E /* Pods-108BrenrigaPorgrarvul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-108BrenrigaPorgrarvul.release.xcconfig"; path = "Target Support Files/Pods-108BrenrigaPorgrarvul/Pods-108BrenrigaPorgrarvul.release.xcconfig"; sourceTree = "<group>"; };
 		60932F831872CF9426966E4C /* Pods-108BrenrigaPorgrarvul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-108BrenrigaPorgrarvul.debug.xcconfig"; path = "Target Support Files/Pods-108BrenrigaPorgrarvul/Pods-108BrenrigaPorgrarvul.debug.xcconfig"; sourceTree = "<group>"; };
 		744B21B22F77243100F2A8EB /* 108BrenrigaPorgrarvul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 108BrenrigaPorgrarvul.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		744B23512F796BFB00F2A8EB /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
-		744B23522F796BFB00F2A8EB /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
-		744B23542F796BFB00F2A8EB /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
-		744B23562F796BFB00F2A8EB /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
-		744B23582F796BFB00F2A8EB /* AppExternalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLinks.swift; sourceTree = "<group>"; };
-		744B235A2F796BFB00F2A8EB /* ColorMatchGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatchGameView.swift; sourceTree = "<group>"; };
-		744B235B2F796BFB00F2A8EB /* ColorMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatchViewModel.swift; sourceTree = "<group>"; };
-		744B235D2F796BFB00F2A8EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		744B235F2F796BFB00F2A8EB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		744B23612F796BFB00F2A8EB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		744B23632F796BFB00F2A8EB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		744B23652F796BFB00F2A8EB /* MazeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeLayout.swift; sourceTree = "<group>"; };
-		744B23662F796BFB00F2A8EB /* ShapeEscapeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEscapeGameView.swift; sourceTree = "<group>"; };
-		744B23672F796BFB00F2A8EB /* ShapeEscapeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEscapeViewModel.swift; sourceTree = "<group>"; };
-		744B23692F796BFB00F2A8EB /* ActiveGameSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameSpec.swift; sourceTree = "<group>"; };
-		744B236A2F796BFB00F2A8EB /* DifficultyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyPicker.swift; sourceTree = "<group>"; };
-		744B236B2F796BFB00F2A8EB /* GameHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHubView.swift; sourceTree = "<group>"; };
-		744B236C2F796BFB00F2A8EB /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
-		744B236D2F796BFB00F2A8EB /* LevelGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGridView.swift; sourceTree = "<group>"; };
-		744B236F2F796BFB00F2A8EB /* StarCollectorGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCollectorGameView.swift; sourceTree = "<group>"; };
-		744B23702F796BFB00F2A8EB /* StarCollectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCollectorViewModel.swift; sourceTree = "<group>"; };
-		744B23732F796BFB00F2A8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		744B23742F796BFB00F2A8EB /* AppTabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarAppearance.swift; sourceTree = "<group>"; };
-		744B23752F796BFB00F2A8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		744B23762F796BFB00F2A8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		744B23772F796BFB00F2A8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		744B23782F796BFB00F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		744B237A2F796BFB00F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		744B237C2F796BFB00F2A8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		744B237D2F796BFB00F2A8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746AF4562F7F19010076A047 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		746AF4572F7F19010076A047 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		746AF4582F7F19010076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA92969F80CFAFF37356631A /* Pods_108BrenrigaPorgrarvul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_108BrenrigaPorgrarvul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		746AF4442F7F179C0076A047 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 744B21B12F77243100F2A8EB /* 108BrenrigaPorgrarvul */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		746AF4182F7F179C0076A047 /* 108BrenrigaPorgrarvul */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (746AF4442F7F179C0076A047 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 108BrenrigaPorgrarvul; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		744B21AF2F77243100F2A8EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AF4672F7F19010076A047 /* FirebaseCore in Frameworks */,
+				746AF4472F7F17EC0076A047 /* FirebaseMessaging in Frameworks */,
+				746AF44A2F7F18050076A047 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746AF45C2F7F19010076A047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746AF46A2F7F19010076A047 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +97,8 @@
 		744B21A92F77243000F2A8EB = {
 			isa = PBXGroup;
 			children = (
-				744B237E2F796BFB00F2A8EB /* 108BrenrigaPorgrarvul */,
+				746AF4182F7F179C0076A047 /* 108BrenrigaPorgrarvul */,
+				746AF4592F7F19010076A047 /* NotificationServiceExtension */,
 				744B21B32F77243100F2A8EB /* Products */,
 				01A265D0CF9B43374AF28155 /* Pods */,
 				FC5E33A538CFD91203A7A610 /* Frameworks */,
@@ -109,149 +109,18 @@
 			isa = PBXGroup;
 			children = (
 				744B21B22F77243100F2A8EB /* 108BrenrigaPorgrarvul.app */,
+				746AF4562F7F19010076A047 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		744B23532F796BFB00F2A8EB /* Design */ = {
+		746AF4592F7F19010076A047 /* NotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
-				744B23512F796BFB00F2A8EB /* AppColor.swift */,
-				744B23522F796BFB00F2A8EB /* AppVisualStyle.swift */,
+				746AF4572F7F19010076A047 /* NotificationService.swift */,
+				746AF4582F7F19010076A047 /* Info.plist */,
 			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		744B23552F796BFB00F2A8EB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				744B23542F796BFB00F2A8EB /* GameModels.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		744B23572F796BFB00F2A8EB /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				744B23562F796BFB00F2A8EB /* AppStorage.swift */,
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		744B23592F796BFB00F2A8EB /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				744B23532F796BFB00F2A8EB /* Design */,
-				744B23552F796BFB00F2A8EB /* Models */,
-				744B23572F796BFB00F2A8EB /* Storage */,
-				744B23582F796BFB00F2A8EB /* AppExternalLinks.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		744B235C2F796BFB00F2A8EB /* ColorMatch */ = {
-			isa = PBXGroup;
-			children = (
-				744B235A2F796BFB00F2A8EB /* ColorMatchGameView.swift */,
-				744B235B2F796BFB00F2A8EB /* ColorMatchViewModel.swift */,
-			);
-			path = ColorMatch;
-			sourceTree = "<group>";
-		};
-		744B235E2F796BFB00F2A8EB /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				744B235D2F796BFB00F2A8EB /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		744B23602F796BFB00F2A8EB /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				744B235F2F796BFB00F2A8EB /* MainTabView.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		744B23622F796BFB00F2A8EB /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				744B23612F796BFB00F2A8EB /* OnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		744B23642F796BFB00F2A8EB /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				744B23632F796BFB00F2A8EB /* SettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		744B23682F796BFB00F2A8EB /* ShapeEscape */ = {
-			isa = PBXGroup;
-			children = (
-				744B23652F796BFB00F2A8EB /* MazeLayout.swift */,
-				744B23662F796BFB00F2A8EB /* ShapeEscapeGameView.swift */,
-				744B23672F796BFB00F2A8EB /* ShapeEscapeViewModel.swift */,
-			);
-			path = ShapeEscape;
-			sourceTree = "<group>";
-		};
-		744B236E2F796BFB00F2A8EB /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				744B23692F796BFB00F2A8EB /* ActiveGameSpec.swift */,
-				744B236A2F796BFB00F2A8EB /* DifficultyPicker.swift */,
-				744B236B2F796BFB00F2A8EB /* GameHubView.swift */,
-				744B236C2F796BFB00F2A8EB /* GameResultView.swift */,
-				744B236D2F796BFB00F2A8EB /* LevelGridView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		744B23712F796BFB00F2A8EB /* StarCollector */ = {
-			isa = PBXGroup;
-			children = (
-				744B236F2F796BFB00F2A8EB /* StarCollectorGameView.swift */,
-				744B23702F796BFB00F2A8EB /* StarCollectorViewModel.swift */,
-			);
-			path = StarCollector;
-			sourceTree = "<group>";
-		};
-		744B23722F796BFB00F2A8EB /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				744B235C2F796BFB00F2A8EB /* ColorMatch */,
-				744B235E2F796BFB00F2A8EB /* Home */,
-				744B23602F796BFB00F2A8EB /* Main */,
-				744B23622F796BFB00F2A8EB /* Onboarding */,
-				744B23642F796BFB00F2A8EB /* Settings */,
-				744B23682F796BFB00F2A8EB /* ShapeEscape */,
-				744B236E2F796BFB00F2A8EB /* Shared */,
-				744B23712F796BFB00F2A8EB /* StarCollector */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		744B237E2F796BFB00F2A8EB /* 108BrenrigaPorgrarvul */ = {
-			isa = PBXGroup;
-			children = (
-				744B23592F796BFB00F2A8EB /* Core */,
-				744B23722F796BFB00F2A8EB /* Features */,
-				744B23732F796BFB00F2A8EB /* AppDelegate.swift */,
-				744B23742F796BFB00F2A8EB /* AppTabBarAppearance.swift */,
-				744B23752F796BFB00F2A8EB /* Assets.xcassets */,
-				744B23762F796BFB00F2A8EB /* ContentView.swift */,
-				744B23772F796BFB00F2A8EB /* Info.plist */,
-				744B23792F796BFB00F2A8EB /* LaunchScreen.storyboard */,
-				744B237B2F796BFB00F2A8EB /* Main.storyboard */,
-				744B237C2F796BFB00F2A8EB /* SceneDelegate.swift */,
-				744B237D2F796BFB00F2A8EB /* ViewController.swift */,
-			);
-			path = 108BrenrigaPorgrarvul;
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		FC5E33A538CFD91203A7A610 /* Frameworks */ = {
@@ -273,15 +142,44 @@
 				744B21AE2F77243100F2A8EB /* Sources */,
 				744B21AF2F77243100F2A8EB /* Frameworks */,
 				744B21B02F77243100F2A8EB /* Resources */,
+				746AF4622F7F19010076A047 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746AF4642F7F19010076A047 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				746AF4182F7F179C0076A047 /* 108BrenrigaPorgrarvul */,
+			);
+			name = 108BrenrigaPorgrarvul;
+			packageProductDependencies = (
+				746AF4662F7F19010076A047 /* FirebaseCore */,
+				746AF4462F7F17EC0076A047 /* FirebaseMessaging */,
+				746AF4492F7F18050076A047 /* AppsFlyerLib-Static */,
+			);
+			productName = 108BrenrigaPorgrarvul;
+			productReference = 744B21B22F77243100F2A8EB /* 108BrenrigaPorgrarvul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746AF45A2F7F19010076A047 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746AF45F2F7F19010076A047 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				746AF45B2F7F19010076A047 /* Sources */,
+				746AF45C2F7F19010076A047 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 108BrenrigaPorgrarvul;
-			productName = 108BrenrigaPorgrarvul;
-			productReference = 744B21B22F77243100F2A8EB /* 108BrenrigaPorgrarvul.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				746AF4462F7F17EC0076A047 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = 746AF4562F7F19010076A047 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -296,6 +194,9 @@
 					744B21B12F77243100F2A8EB = {
 						CreatedOnToolsVersion = 26.2;
 					};
+					746AF45A2F7F19010076A047 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 				};
 			};
 			buildConfigurationList = 744B21AD2F77243000F2A8EB /* Build configuration list for PBXProject "108BrenrigaPorgrarvul" */;
@@ -307,11 +208,16 @@
 				Base,
 			);
 			mainGroup = 744B21A92F77243000F2A8EB;
+			packageReferences = (
+				746AF4452F7F17EC0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				746AF4482F7F18050076A047 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 744B21B32F77243100F2A8EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				744B21B12F77243100F2A8EB /* 108BrenrigaPorgrarvul */,
+				746AF45A2F7F19010076A047 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -321,9 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744B237F2F796BFB00F2A8EB /* Assets.xcassets in Resources */,
-				744B23812F796BFB00F2A8EB /* LaunchScreen.storyboard in Resources */,
-				744B23822F796BFB00F2A8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,55 +262,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744B23832F796BFB00F2A8EB /* AppColor.swift in Sources */,
-				744B23842F796BFB00F2A8EB /* AppVisualStyle.swift in Sources */,
-				744B23852F796BFB00F2A8EB /* GameModels.swift in Sources */,
-				744B23862F796BFB00F2A8EB /* AppStorage.swift in Sources */,
-				744B23872F796BFB00F2A8EB /* AppExternalLinks.swift in Sources */,
-				744B23882F796BFB00F2A8EB /* ColorMatchGameView.swift in Sources */,
-				744B23892F796BFB00F2A8EB /* ColorMatchViewModel.swift in Sources */,
-				744B238A2F796BFB00F2A8EB /* HomeView.swift in Sources */,
-				744B238B2F796BFB00F2A8EB /* MainTabView.swift in Sources */,
-				744B238C2F796BFB00F2A8EB /* OnboardingView.swift in Sources */,
-				744B238D2F796BFB00F2A8EB /* SettingsView.swift in Sources */,
-				744B238E2F796BFB00F2A8EB /* MazeLayout.swift in Sources */,
-				744B238F2F796BFB00F2A8EB /* ShapeEscapeGameView.swift in Sources */,
-				744B23902F796BFB00F2A8EB /* ShapeEscapeViewModel.swift in Sources */,
-				744B23912F796BFB00F2A8EB /* ActiveGameSpec.swift in Sources */,
-				744B23922F796BFB00F2A8EB /* DifficultyPicker.swift in Sources */,
-				744B23932F796BFB00F2A8EB /* GameHubView.swift in Sources */,
-				744B23942F796BFB00F2A8EB /* GameResultView.swift in Sources */,
-				744B23952F796BFB00F2A8EB /* LevelGridView.swift in Sources */,
-				744B23962F796BFB00F2A8EB /* StarCollectorGameView.swift in Sources */,
-				744B23972F796BFB00F2A8EB /* StarCollectorViewModel.swift in Sources */,
-				744B23982F796BFB00F2A8EB /* AppDelegate.swift in Sources */,
-				744B23992F796BFB00F2A8EB /* AppTabBarAppearance.swift in Sources */,
-				744B239A2F796BFB00F2A8EB /* ContentView.swift in Sources */,
-				744B239B2F796BFB00F2A8EB /* SceneDelegate.swift in Sources */,
-				744B239C2F796BFB00F2A8EB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746AF45B2F7F19010076A047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746AF45D2F7F19010076A047 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		744B23792F796BFB00F2A8EB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				744B23782F796BFB00F2A8EB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		746AF4642F7F19010076A047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746AF45A2F7F19010076A047 /* NotificationServiceExtension */;
+			targetProxy = 746AF4652F7F19010076A047 /* PBXContainerItemProxy */;
 		};
-		744B237B2F796BFB00F2A8EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				744B237A2F796BFB00F2A8EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		744B21C62F77243100F2A8EB /* Debug */ = {
@@ -417,22 +291,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvul/108BrenrigaPorgrarvulDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hug.k0dj3nbs9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -456,22 +334,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 108BrenrigaPorgrarvul/108BrenrigaPorgrarvulRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 108BrenrigaPorgrarvul/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Brenriga Porgrarvul";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hug.k0dj3nbs9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -607,6 +489,60 @@
 			};
 			name = Release;
 		};
+		746AF4602F7F19010076A047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hug.k0dj3nbs9.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		746AF4612F7F19010076A047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hug.k0dj3nbs9.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,7 +564,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		746AF45F2F7F19010076A047 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746AF4602F7F19010076A047 /* Debug */,
+				746AF4612F7F19010076A047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		746AF4452F7F17EC0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+		746AF4482F7F18050076A047 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		746AF4462F7F17EC0076A047 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746AF4452F7F17EC0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		746AF4492F7F18050076A047 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746AF4482F7F18050076A047 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		746AF4662F7F19010076A047 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746AF4452F7F17EC0076A047 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 744B21AA2F77243000F2A8EB /* Project object */;
 }
