@@ -1,11 +1,8 @@
 //
 //  LoadingViewController.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Показывает загрузку в стиле приложения (градиент + анимированный индикатор), запрашивает конфиг,
-//  затем переходит на ContentView или WebviewVC. Адаптируется под портрет и ландшафт.
-//  Максимальное время загрузки — 15 секунд.
-//
+
 
 import UIKit
 import SwiftUI
@@ -18,7 +15,7 @@ private let conversionDataFreshnessWindow: TimeInterval = 10
 private let maxLoadingTimeInterval: TimeInterval = 15
 
 /// Задержка перед стартом обычного config-flow (когда нет pending push URL).
-private let ordinaryStartDelayInterval: TimeInterval = 5
+private let ordinaryStartDelayInterval: TimeInterval = 7
 
 final class LoadingViewController: UIViewController {
 

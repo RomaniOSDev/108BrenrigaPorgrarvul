@@ -1,10 +1,8 @@
 //
 //  NotificationPermissionManager.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Stores when the user declined the custom notification screen.
-//  Custom screen is hidden for 3 days after decline.
-//
+
 
 import Foundation
 import UserNotifications

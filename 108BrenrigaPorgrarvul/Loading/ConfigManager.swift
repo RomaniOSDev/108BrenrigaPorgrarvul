@@ -1,10 +1,8 @@
 //
 //  ConfigManager.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Запрос к эндпоинту конфига: сбор тела (конверсия AppsFlyer + af_id, bundle_id, os, store_id, locale, опционально push_token, firebase_project_id),
-//  POST, разбор ответа, сохранение url и expires.
-//
+
 
 import Foundation
 import AppsFlyerLib

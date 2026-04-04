@@ -1,10 +1,8 @@
 //
 //  LoadingManager.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Загрузочный менеджер: при старте показывает LoadingViewController, который запрашивает конфиг
-//  и затем переключает на ContentView или WebviewVC в зависимости от ответа сервера.
-//
+
 
 import UIKit
 import SwiftUI

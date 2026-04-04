@@ -1,10 +1,8 @@
 //
 //  NotificationPermissionViewController.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Hosts the custom notification permission screen. On Accept requests system permission then shows WebView.
-//  On Decline records date and shows WebView (custom screen will not show again for 3 days).
-//
+
 
 import UIKit
 import SwiftUI

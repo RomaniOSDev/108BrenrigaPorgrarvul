@@ -1,10 +1,8 @@
 //
 //  NotificationPermissionView.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Custom notification permission screen before WebView.
-//  Adapts to portrait and landscape.
-//
+
 
 import SwiftUI
 

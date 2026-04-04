@@ -1,10 +1,8 @@
 //
 //  LoadingView.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Экран загрузки в стиле приложения: градиент, анимированный индикатор.
-//  Адаптируется под портретную и альбомную ориентацию.
-//
+
 
 import SwiftUI
 

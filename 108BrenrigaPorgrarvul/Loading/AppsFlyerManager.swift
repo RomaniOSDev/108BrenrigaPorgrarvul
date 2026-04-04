@@ -1,10 +1,8 @@
 //
 //  AppsFlyerManager.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Менеджер AppsFlyer: получение данных конверсии и UDL, сохранение в строку для отправки на сервер.
-//  При af_status == "Organic" выполняется повторный запрос конверсии через 5 секунд (Get the conversion data).
-//
+
 
 import Foundation
 import AppsFlyerLib

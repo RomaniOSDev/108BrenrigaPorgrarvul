@@ -1,9 +1,8 @@
 //
 //  NoInternetView.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Offline placeholder shown on app start when network is unavailable.
-//
+
 
 import SwiftUI
 

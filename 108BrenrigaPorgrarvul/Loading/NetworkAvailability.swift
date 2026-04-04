@@ -1,9 +1,8 @@
 //
 //  NetworkAvailability.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  One-shot internet reachability check for startup flow.
-//
+
 
 import Foundation
 import Network

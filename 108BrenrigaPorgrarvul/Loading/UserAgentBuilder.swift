@@ -1,10 +1,8 @@
 //
 //  UserAgentBuilder.swift
-//  1TrulbargrovarStrinel
+//  108BrenrigaPorgrarvul
 //
-//  Builds a Safari-like User-Agent from actual device info (OS version, platform).
-//  No hardcoding of device-specific values; WebView is not indicated.
-//
+
 
 import UIKit
 

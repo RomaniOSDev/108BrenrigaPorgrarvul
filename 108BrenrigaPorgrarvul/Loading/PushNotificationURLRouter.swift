@@ -1,8 +1,6 @@
 //
 //  PushNotificationURLRouter.swift
-//  1TrulbargrovarStrinel
-//
-//  Extracts URL from push payload and stores one-time pending URL.
+//  108BrenrigaPorgrarvul
 //
 
 import Foundation
